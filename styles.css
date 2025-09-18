@@ -786,11 +786,12 @@ p {
 }
 
 .university-logo {
-    height: 24px;
+    height: 32px;
     width: auto;
     vertical-align: middle;
-    opacity: 0.8;
+    opacity: 0.9;
     transition: var(--transition);
+    border-radius: 4px;
 }
 
 .university-logo:hover {
@@ -1713,7 +1714,7 @@ section:nth-child(odd) {
     }
     
     .university-logo {
-        height: 20px;
+        height: 28px;
         align-self: flex-start;
     }
     
