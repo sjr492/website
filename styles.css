@@ -74,153 +74,153 @@ body {
 .circle {
     position: absolute;
     border-radius: 50%;
-    opacity: 0.03;
+    opacity: 0.15;
     animation: float 20s ease-in-out infinite;
 }
 
 .circle-1 {
-    width: 200px;
-    height: 200px;
-    background: var(--primary-color);
+    width: 400px;
+    height: 400px;
+    background: linear-gradient(135deg, #8B7355, #7A6B4A);
     top: 10%;
     right: 15%;
     animation-delay: 0s;
 }
 
 .circle-2 {
-    width: 150px;
-    height: 150px;
-    background: var(--accent-color);
+    width: 350px;
+    height: 350px;
+    background: linear-gradient(45deg, #B87333, #CD853F);
     bottom: 20%;
     left: 10%;
     animation-delay: -5s;
 }
 
 .circle-3 {
-    width: 100px;
-    height: 100px;
-    background: var(--warm-accent);
+    width: 250px;
+    height: 250px;
+    background: linear-gradient(90deg, #D2B48C, #DEB887);
     top: 60%;
     right: 5%;
     animation-delay: -10s;
 }
 
 .circle-4 {
-    width: 300px;
-    height: 300px;
-    background: var(--sage-green);
+    width: 500px;
+    height: 500px;
+    background: linear-gradient(180deg, #9CAF88, #8FAD7A);
     top: 70%;
     left: 60%;
     animation-delay: -15s;
 }
 
 .circle-5 {
-    width: 80px;
-    height: 80px;
-    background: linear-gradient(45deg, var(--warm-accent), var(--accent-color));
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(45deg, #D2B48C, #CD853F);
     top: 25%;
     left: 25%;
     animation-delay: -8s;
-    opacity: 0.05;
+    opacity: 0.18;
 }
 
 .circle-6 {
-    width: 180px;
-    height: 180px;
-    background: radial-gradient(circle, var(--earth-accent), var(--primary-color));
+    width: 380px;
+    height: 380px;
+    background: radial-gradient(circle, #A0522D, #8B4513);
     bottom: 5%;
     right: 30%;
     animation-delay: -12s;
-    opacity: 0.04;
+    opacity: 0.16;
 }
 
 .circle-7 {
-    width: 120px;
-    height: 120px;
-    background: linear-gradient(135deg, var(--sage-green), var(--warm-accent));
+    width: 280px;
+    height: 280px;
+    background: linear-gradient(135deg, #9CAF88, #D2B48C);
     top: 15%;
     left: 75%;
     animation-delay: -20s;
-    opacity: 0.03;
+    opacity: 0.14;
 }
 
 .circle-8 {
-    width: 60px;
-    height: 60px;
-    background: radial-gradient(circle, var(--accent-color), var(--earth-accent));
+    width: 150px;
+    height: 150px;
+    background: radial-gradient(circle, #CD853F, #A0522D);
     bottom: 60%;
     left: 5%;
     animation-delay: -25s;
-    opacity: 0.05;
+    opacity: 0.17;
 }
 
 .triangle {
     position: absolute;
     width: 0;
     height: 0;
-    opacity: 0.02;
+    opacity: 0.12;
     animation: rotate 30s linear infinite;
 }
 
 .triangle-1 {
-    border-left: 75px solid transparent;
-    border-right: 75px solid transparent;
-    border-bottom: 130px solid var(--earth-accent);
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent;
+    border-bottom: 260px solid #A0522D;
     top: 30%;
     left: 80%;
     animation-delay: 0s;
 }
 
 .triangle-2 {
-    border-left: 50px solid transparent;
-    border-right: 50px solid transparent;
-    border-bottom: 87px solid var(--primary-color);
+    border-left: 120px solid transparent;
+    border-right: 120px solid transparent;
+    border-bottom: 208px solid #8B7355;
     bottom: 40%;
     right: 20%;
     animation-delay: -10s;
 }
 
 .triangle-3 {
-    border-left: 40px solid transparent;
-    border-right: 40px solid transparent;
-    border-bottom: 69px solid var(--warm-accent);
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 173px solid #D2B48C;
     top: 50%;
     left: 70%;
     animation-delay: -18s;
-    opacity: 0.04;
+    opacity: 0.16;
 }
 
 .triangle-4 {
-    border-left: 35px solid transparent;
-    border-right: 35px solid transparent;
-    border-bottom: 61px solid var(--sage-green);
+    border-left: 90px solid transparent;
+    border-right: 90px solid transparent;
+    border-bottom: 156px solid #9CAF88;
     bottom: 25%;
     right: 5%;
     animation-delay: -22s;
-    opacity: 0.03;
+    opacity: 0.14;
 }
 
 .triangle-5 {
-    border-left: 25px solid transparent;
-    border-right: 25px solid transparent;
-    border-bottom: 43px solid var(--earth-accent);
+    border-left: 70px solid transparent;
+    border-right: 70px solid transparent;
+    border-bottom: 121px solid #CD853F;
     top: 5%;
     left: 40%;
     animation-delay: -28s;
-    opacity: 0.04;
+    opacity: 0.15;
 }
 
 .rectangle {
     position: absolute;
-    opacity: 0.02;
+    opacity: 0.13;
     border-radius: 8px;
     animation: float 25s ease-in-out infinite;
 }
 
 .rectangle-1 {
-    width: 120px;
-    height: 60px;
-    background: var(--accent-color);
+    width: 280px;
+    height: 140px;
+    background: linear-gradient(45deg, #CD853F, #D2B48C);
     top: 15%;
     left: 5%;
     animation-delay: -7s;
@@ -228,9 +228,9 @@ body {
 }
 
 .rectangle-2 {
-    width: 80px;
-    height: 40px;
-    background: var(--sage-green);
+    width: 200px;
+    height: 100px;
+    background: linear-gradient(90deg, #9CAF88, #8FAD7A);
     bottom: 10%;
     right: 60%;
     animation-delay: -12s;
@@ -238,35 +238,35 @@ body {
 }
 
 .rectangle-3 {
-    width: 100px;
-    height: 20px;
-    background: linear-gradient(90deg, var(--warm-accent), var(--earth-accent));
+    width: 240px;
+    height: 60px;
+    background: linear-gradient(90deg, #D2B48C, #A0522D);
     top: 80%;
     left: 20%;
     animation-delay: -6s;
     transform: rotate(45deg);
-    opacity: 0.04;
+    opacity: 0.16;
 }
 
 .rectangle-4 {
-    width: 140px;
-    height: 30px;
-    background: linear-gradient(45deg, var(--primary-color), var(--sage-green));
+    width: 320px;
+    height: 80px;
+    background: linear-gradient(45deg, #8B7355, #9CAF88);
     bottom: 50%;
     right: 40%;
     animation-delay: -24s;
     transform: rotate(-30deg);
-    opacity: 0.03;
+    opacity: 0.14;
 }
 
 /* Hexagon shapes */
 .hexagon {
     position: absolute;
-    width: 60px;
-    height: 34.64px;
-    background: var(--accent-color);
-    margin: 17.32px 0;
-    opacity: 0.03;
+    width: 140px;
+    height: 80.84px;
+    background: #CD853F;
+    margin: 40.42px 0;
+    opacity: 0.14;
     animation: float 22s ease-in-out infinite;
 }
 
@@ -275,18 +275,18 @@ body {
     content: "";
     position: absolute;
     width: 0;
-    border-left: 30px solid transparent;
-    border-right: 30px solid transparent;
+    border-left: 70px solid transparent;
+    border-right: 70px solid transparent;
 }
 
 .hexagon:before {
     bottom: 100%;
-    border-bottom: 17.32px solid var(--accent-color);
+    border-bottom: 40.42px solid #CD853F;
 }
 
 .hexagon:after {
     top: 100%;
-    border-top: 17.32px solid var(--accent-color);
+    border-top: 40.42px solid #CD853F;
 }
 
 .hexagon-1 {
@@ -299,40 +299,54 @@ body {
     bottom: 30%;
     left: 15%;
     animation-delay: -14s;
-    background: var(--earth-accent);
+    background: #A0522D;
+    width: 120px;
+    height: 69.28px;
+    margin: 34.64px 0;
 }
 
 .hexagon-2:before {
-    border-bottom-color: var(--earth-accent);
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+    border-bottom: 34.64px solid #A0522D;
 }
 
 .hexagon-2:after {
-    border-top-color: var(--earth-accent);
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+    border-top: 34.64px solid #A0522D;
 }
 
 .hexagon-3 {
     top: 65%;
     right: 70%;
     animation-delay: -19s;
-    background: var(--sage-green);
+    background: #9CAF88;
+    width: 100px;
+    height: 57.73px;
+    margin: 28.87px 0;
 }
 
 .hexagon-3:before {
-    border-bottom-color: var(--sage-green);
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 28.87px solid #9CAF88;
 }
 
 .hexagon-3:after {
-    border-top-color: var(--sage-green);
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 28.87px solid #9CAF88;
 }
 
 /* Diamond shapes */
 .diamond {
     position: absolute;
-    width: 40px;
-    height: 40px;
-    background: linear-gradient(45deg, var(--warm-accent), var(--sage-green));
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(45deg, #D2B48C, #9CAF88);
     transform: rotate(45deg);
-    opacity: 0.03;
+    opacity: 0.15;
     animation: rotate 35s linear infinite;
 }
 
@@ -346,25 +360,27 @@ body {
     bottom: 15%;
     right: 15%;
     animation-delay: -16s;
-    background: linear-gradient(45deg, var(--primary-color), var(--accent-color));
+    background: linear-gradient(45deg, #8B7355, #CD853F);
+    width: 80px;
+    height: 80px;
 }
 
 .diamond-3 {
     top: 75%;
     left: 80%;
     animation-delay: -21s;
-    width: 30px;
-    height: 30px;
-    background: linear-gradient(45deg, var(--warm-accent), var(--earth-accent));
+    width: 70px;
+    height: 70px;
+    background: linear-gradient(45deg, #D2B48C, #A0522D);
 }
 
 /* Pentagon shapes */
 .pentagon {
     position: absolute;
-    width: 50px;
-    height: 50px;
-    background: var(--accent-color);
-    opacity: 0.03;
+    width: 120px;
+    height: 120px;
+    background: #CD853F;
+    opacity: 0.14;
     animation: float 28s ease-in-out infinite;
     clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
 }
@@ -373,16 +389,16 @@ body {
     top: 45%;
     left: 30%;
     animation-delay: -13s;
-    background: var(--warm-accent);
+    background: #D2B48C;
 }
 
 .pentagon-2 {
     bottom: 35%;
     right: 25%;
     animation-delay: -26s;
-    background: var(--sage-green);
-    width: 40px;
-    height: 40px;
+    background: #9CAF88;
+    width: 100px;
+    height: 100px;
 }
 
 /* Star shapes */
@@ -390,7 +406,7 @@ body {
     position: absolute;
     width: 0;
     height: 0;
-    opacity: 0.03;
+    opacity: 0.15;
     animation: rotate 40s linear infinite;
 }
 
@@ -398,35 +414,35 @@ body {
     top: 20%;
     right: 50%;
     animation-delay: -17s;
-    border-left: 15px solid transparent;
-    border-right: 15px solid transparent;
-    border-bottom: 10px solid var(--primary-color);
+    border-left: 35px solid transparent;
+    border-right: 35px solid transparent;
+    border-bottom: 25px solid #8B7355;
     transform: rotate(35deg);
 }
 
 .star-1:before {
     content: '';
     position: absolute;
-    left: -15px;
-    top: 3px;
+    left: -35px;
+    top: 7px;
     width: 0;
     height: 0;
-    border-left: 15px solid transparent;
-    border-right: 15px solid transparent;
-    border-bottom: 10px solid var(--primary-color);
+    border-left: 35px solid transparent;
+    border-right: 35px solid transparent;
+    border-bottom: 25px solid #8B7355;
     transform: rotate(-70deg);
 }
 
 .star-1:after {
     content: '';
     position: absolute;
-    left: -15px;
-    top: 3px;
+    left: -35px;
+    top: 7px;
     width: 0;
     height: 0;
-    border-left: 15px solid transparent;
-    border-right: 15px solid transparent;
-    border-bottom: 10px solid var(--primary-color);
+    border-left: 35px solid transparent;
+    border-right: 35px solid transparent;
+    border-bottom: 25px solid #8B7355;
     transform: rotate(70deg);
 }
 
@@ -434,35 +450,35 @@ body {
     bottom: 20%;
     left: 60%;
     animation-delay: -23s;
-    border-left: 12px solid transparent;
-    border-right: 12px solid transparent;
-    border-bottom: 8px solid var(--earth-accent);
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-bottom: 20px solid #A0522D;
     transform: rotate(-20deg);
 }
 
 .star-2:before {
     content: '';
     position: absolute;
-    left: -12px;
-    top: 2px;
+    left: -30px;
+    top: 5px;
     width: 0;
     height: 0;
-    border-left: 12px solid transparent;
-    border-right: 12px solid transparent;
-    border-bottom: 8px solid var(--earth-accent);
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-bottom: 20px solid #A0522D;
     transform: rotate(-70deg);
 }
 
 .star-2:after {
     content: '';
     position: absolute;
-    left: -12px;
-    top: 2px;
+    left: -30px;
+    top: 5px;
     width: 0;
     height: 0;
-    border-left: 12px solid transparent;
-    border-right: 12px solid transparent;
-    border-bottom: 8px solid var(--earth-accent);
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-bottom: 20px solid #A0522D;
     transform: rotate(70deg);
 }
 
@@ -471,10 +487,10 @@ body {
         transform: translateY(0) translateX(0) scale(1);
     }
     33% {
-        transform: translateY(-30px) translateX(20px) scale(1.1);
+        transform: translateY(-40px) translateX(30px) scale(1.15);
     }
     66% {
-        transform: translateY(20px) translateX(-15px) scale(0.9);
+        transform: translateY(30px) translateX(-25px) scale(0.85);
     }
 }
 
