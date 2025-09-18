@@ -34,7 +34,7 @@ Replace the image placeholder in the hero section by:
 2. Update the `.image-placeholder` section in `index.html`:
    ```html
    <div class="hero-image">
-       <img src="your-photo.jpg" alt="Sebastian Edger" class="profile-image">
+       <img src="your-photo.jpg" alt="Sebastian" class="profile-image">
    </div>
    ```
 3. Add corresponding CSS for `.profile-image` in `styles.css`
