@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sebastian Edger - Computer Science Student</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <div class="nav-brand">Sebastian Edger</div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#academics" class="nav-link">Academics</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#involvement" class="nav-link">Involvement</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Geometric Background Elements -->
+    <div class="geometric-bg">
+        <div class="circle circle-1"></div>
+        <div class="circle circle-2"></div>
+        <div class="circle circle-3"></div>
+        <div class="circle circle-4"></div>
+        <div class="triangle triangle-1"></div>
+        <div class="triangle triangle-2"></div>
+        <div class="rectangle rectangle-1"></div>
+        <div class="rectangle rectangle-2"></div>
+    </div>
+
+    <!-- Floating Contact Sidebar -->
+    <div class="floating-contact" id="floatingContact">
+        <div class="floating-toggle" id="floatingToggle">
+            <i class="fas fa-user-circle"></i>
+        </div>
+        <div class="floating-content">
+            <div class="floating-header">
+                <h4>Quick Contact</h4>
+                <button class="floating-close" id="floatingClose">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="floating-links">
+                <a href="resume.pdf" target="_blank" class="floating-link">
+                    <i class="fas fa-file-pdf"></i>
+                    <span>Resume</span>
+                </a>
+                <a href="https://linkedin.com" target="_blank" class="floating-link">
+                    <i class="fab fa-linkedin-in"></i>
+                    <span>LinkedIn</span>
+                </a>
+                <a href="https://github.com" target="_blank" class="floating-link">
+                    <i class="fab fa-github"></i>
+                    <span>GitHub</span>
+                </a>
+                <a href="mailto:your.email@miami.edu" class="floating-link">
+                    <i class="fas fa-envelope"></i>
+                    <span>Email</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">Sebastian Edger</h1>
+                    <p class="hero-subtitle">Computer Science Student</p>
+                    <p class="hero-description">University of Miami Freshman exploring the intersection of technology, optimization, and innovation</p>
+                    <div class="hero-buttons">
+                        <a href="#about" class="btn btn-primary">Learn More</a>
+                        <a href="resume.pdf" target="_blank" class="btn btn-secondary">
+                            <i class="fas fa-download"></i>
+                            Resume
+                        </a>
+                        <a href="https://linkedin.com" target="_blank" class="btn btn-secondary">
+                            <i class="fab fa-linkedin-in"></i>
+                            LinkedIn
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="image-placeholder">
+                        <i class="fas fa-user"></i>
+                        <p>Your Photo Here</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>My fascination with technology didn't start with a line of code, but with a YouTube review. I was captivated by the passionate debates over new smartphones, and that curiosity quickly grew into a drive to understand how it all works. Now, as a Computer Science major at the University of Miami, I'm channeling that passion into learning everything from the theory behind the code to the hardware it runs on.</p>
+                    
+                    <p>I find the process of putting that knowledge into practice incredibly rewarding. It's the feeling I get from helping a friend confidently choose the right laptop, or from spending hours fine-tuning a game server to create a perfect experience. It's that drive to understand a system deeply enough to make it better, and for me, that's what technology is all about.</p>
+                </div>
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <i class="fab fa-python"></i>
+                        <span>Python Programming</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-java"></i>
+                        <span>Java (Learning)</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-calculator"></i>
+                        <span>Mathematics</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-project-diagram"></i>
+                        <span>Problem Solving</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Academics Section -->
+    <section id="academics" class="academics">
+        <div class="container">
+            <h2 class="section-title">Academic Focus</h2>
+            <div class="academics-grid">
+                <div class="academic-card">
+                    <div class="card-header">
+                        <i class="fas fa-laptop-code"></i>
+                        <h3>Computer Science (Major)</h3>
+                    </div>
+                    <p>Building on my passion for optimization by diving into core concepts like data structures, algorithms, and object-oriented programming. Particularly drawn to software development where I can apply these skills to build tangible and useful applications.</p>
+                    
+                    <div class="coursework">
+                        <h4>Sample Coursework</h4>
+                        <ul>
+                            <li>Intro to Python Programming</li>
+                            <li>Pre-Calculus II</li>
+                            <li>Calculus I (Upcoming)</li>
+                            <li>Java Programming (Upcoming)</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="academic-card">
+                    <div class="card-header">
+                        <i class="fas fa-square-root-alt"></i>
+                        <h3>Mathematics (Minor)</h3>
+                    </div>
+                    <p>My math minor strengthens my problem-solving abilities and provides the theoretical foundation for advanced computer science topics like cryptography and machine learning.</p>
+                    
+                    <div class="coursework">
+                        <h4>Key Concepts</h4>
+                        <ul>
+                            <li>Linear Algebra</li>
+                            <li>Probability & Statistics</li>
+                            <li>Mathematical Proofs</li>
+                            <li>Abstract Logic</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-gamepad"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Game Server Optimization</h3>
+                        <p>Fine-tuned game server configurations to create optimal gaming experiences, focusing on performance optimization and user experience enhancement.</p>
+                        <div class="project-tags">
+                            <span class="tag">Server Management</span>
+                            <span class="tag">Performance</span>
+                            <span class="tag">Gaming</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i>
+                                View Code
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                                Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fab fa-python"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Python Learning Projects</h3>
+                        <p>Collection of Python programming exercises and projects from coursework, demonstrating fundamental programming concepts and problem-solving skills.</p>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Algorithms</span>
+                            <span class="tag">Data Structures</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i>
+                                View Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-laptop"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Tech Consultation Tool</h3>
+                        <p>Personal project helping friends and family choose the right technology products based on their needs, combining my passion for tech with practical application.</p>
+                        <div class="project-tags">
+                            <span class="tag">Technology</span>
+                            <span class="tag">Consultation</span>
+                            <span class="tag">Research</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                                Learn More
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Personal Website</h3>
+                        <p>This responsive personal website built with modern HTML, CSS, and JavaScript, featuring smooth animations and a clean, professional design.</p>
+                        <div class="project-tags">
+                            <span class="tag">HTML/CSS</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">Web Design</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i>
+                                View Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Involvement Section -->
+    <section id="involvement" class="involvement">
+        <div class="container">
+            <h2 class="section-title">Campus Involvement</h2>
+            <div class="involvement-grid">
+                <div class="involvement-card">
+                    <i class="fas fa-users"></i>
+                    <h3>Kappa Theta Pi</h3>
+                    <p>Professional Tech Fraternity</p>
+                </div>
+                <div class="involvement-card">
+                    <i class="fas fa-graduation-cap"></i>
+                    <h3>Association of Commuters</h3>
+                    <p>Student Organization</p>
+                </div>
+                <div class="involvement-card">
+                    <i class="fas fa-heart"></i>
+                    <h3>UPurr</h3>
+                    <p>Feline Welfare Volunteers</p>
+                </div>
+                <div class="involvement-card">
+                    <i class="fas fa-table-tennis"></i>
+                    <h3>Club Tennis</h3>
+                    <p>Athletic Team</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <p>Interested in connecting? I'd love to discuss technology, share ideas, or explore opportunities.</p>
+                <div class="contact-buttons">
+                    <a href="https://linkedin.com" target="_blank" class="btn btn-primary">
+                        <i class="fab fa-linkedin-in"></i>
+                        Connect on LinkedIn
+                    </a>
+                    <a href="resume.pdf" target="_blank" class="btn btn-secondary">
+                        <i class="fas fa-download"></i>
+                        Download Resume
+                    </a>
+                    <a href="mailto:your.email@miami.edu" class="btn btn-secondary">
+                        <i class="fas fa-envelope"></i>
+                        Send Email
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Sebastian Edger. University of Miami Computer Science Student.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
