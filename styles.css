@@ -114,6 +114,26 @@ body {
     animation-delay: -15s;
 }
 
+.circle-5 {
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(45deg, var(--warm-accent), var(--accent-color));
+    top: 25%;
+    left: 25%;
+    animation-delay: -8s;
+    opacity: 0.05;
+}
+
+.circle-6 {
+    width: 180px;
+    height: 180px;
+    background: radial-gradient(circle, var(--earth-accent), var(--primary-color));
+    bottom: 5%;
+    right: 30%;
+    animation-delay: -12s;
+    opacity: 0.04;
+}
+
 .triangle {
     position: absolute;
     width: 0;
@@ -138,6 +158,16 @@ body {
     bottom: 40%;
     right: 20%;
     animation-delay: -10s;
+}
+
+.triangle-3 {
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-bottom: 69px solid var(--warm-accent);
+    top: 50%;
+    left: 70%;
+    animation-delay: -18s;
+    opacity: 0.04;
 }
 
 .rectangle {
@@ -165,6 +195,92 @@ body {
     right: 60%;
     animation-delay: -12s;
     transform: rotate(-20deg);
+}
+
+.rectangle-3 {
+    width: 100px;
+    height: 20px;
+    background: linear-gradient(90deg, var(--warm-accent), var(--earth-accent));
+    top: 80%;
+    left: 20%;
+    animation-delay: -6s;
+    transform: rotate(45deg);
+    opacity: 0.04;
+}
+
+/* Hexagon shapes */
+.hexagon {
+    position: absolute;
+    width: 60px;
+    height: 34.64px;
+    background: var(--accent-color);
+    margin: 17.32px 0;
+    opacity: 0.03;
+    animation: float 22s ease-in-out infinite;
+}
+
+.hexagon:before,
+.hexagon:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+}
+
+.hexagon:before {
+    bottom: 100%;
+    border-bottom: 17.32px solid var(--accent-color);
+}
+
+.hexagon:after {
+    top: 100%;
+    border-top: 17.32px solid var(--accent-color);
+}
+
+.hexagon-1 {
+    top: 40%;
+    right: 10%;
+    animation-delay: -9s;
+}
+
+.hexagon-2 {
+    bottom: 30%;
+    left: 15%;
+    animation-delay: -14s;
+    background: var(--earth-accent);
+}
+
+.hexagon-2:before {
+    border-bottom-color: var(--earth-accent);
+}
+
+.hexagon-2:after {
+    border-top-color: var(--earth-accent);
+}
+
+/* Diamond shapes */
+.diamond {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: linear-gradient(45deg, var(--warm-accent), var(--sage-green));
+    transform: rotate(45deg);
+    opacity: 0.03;
+    animation: rotate 35s linear infinite;
+}
+
+.diamond-1 {
+    top: 35%;
+    left: 5%;
+    animation-delay: -11s;
+}
+
+.diamond-2 {
+    bottom: 15%;
+    right: 15%;
+    animation-delay: -16s;
+    background: linear-gradient(45deg, var(--primary-color), var(--accent-color));
 }
 
 @keyframes float {

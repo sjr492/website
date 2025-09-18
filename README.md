@@ -1,4 +1,4 @@
-# Sebastian Edger - Personal Website
+# Sebastian Rivas - Personal Website
 
 A modern, responsive personal website showcasing academic background, skills, and campus involvement at the University of Miami.
 
@@ -16,8 +16,9 @@ A modern, responsive personal website showcasing academic background, skills, an
 1. **Hero Section**: Name, title, and photo placeholder
 2. **About Me**: Personal story and skills showcase
 3. **Academic Focus**: Computer Science major and Mathematics minor details
-4. **Campus Involvement**: Organizations and activities
-5. **Contact**: LinkedIn and email links
+4. **Projects**: Personal website project showcasing GitHub Pages and AI Codespace tools
+5. **Campus Involvement**: Organizations including ColorStack, Kappa Theta Pi, and more
+6. **Contact**: LinkedIn and email links
 
 ## Files
 
