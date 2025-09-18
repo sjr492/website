@@ -795,8 +795,8 @@ p {
 }
 
 .profile-photo {
-    width: 300px;
-    height: 300px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     object-fit: cover;
     box-shadow: var(--shadow);
