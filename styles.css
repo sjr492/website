@@ -997,7 +997,7 @@ section:nth-child(odd) {
     margin-bottom: 1.5rem;
 }
 
-.skills-grid {
+.about-skills {
     display: grid;
     grid-template-columns: 1fr;
     gap: 2rem;
