@@ -785,10 +785,6 @@ p {
     gap: 0.5rem;
 }
 
-.university-logo-container {
-    display: inline-block;
-}
-
 .university-logo {
     height: 32px;
     width: auto;
@@ -797,16 +793,6 @@ p {
     transition: var(--transition);
     border-radius: 4px;
     display: inline-block;
-    background-color: rgba(255, 0, 0, 0.1);
-    border: 1px solid rgba(0, 0, 0, 0.1);
-}
-
-.university-logo-fallback {
-    height: 32px;
-    font-size: 24px;
-    color: var(--primary-color);
-    vertical-align: middle;
-    opacity: 0.9;
 }
 
 .university-logo:hover {
