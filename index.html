@@ -99,7 +99,10 @@
                     <h1 class="hero-title">Sebastian Rivas</h1>
                     <p class="hero-subtitle">Computer Science Student</p>
                     <p class="hero-description">
-                        <img src="logo.png" alt="University of Miami" class="university-logo">
+                        <span class="university-logo-container">
+                            <img src="./logo.png" alt="University of Miami" class="university-logo" onerror="this.style.display='none'; this.nextElementSibling.style.display='inline';">
+                            <i class="fas fa-university university-logo-fallback" style="display: none;"></i>
+                        </span>
                         University of Miami Freshman exploring the intersection of technology, optimization, and innovation
                     </p>
                     <div class="hero-buttons">
