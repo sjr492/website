@@ -1379,6 +1379,134 @@ section:nth-child(odd) {
     font-size: 0.9rem;
 }
 
+/* Compact Involvement Grid */
+.involvement-grid-compact {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.involvement-grid-compact .involvement-card {
+    padding: 2rem 1.5rem;
+    text-align: center;
+    background: var(--card-background);
+    border-radius: 16px;
+    box-shadow: var(--shadow);
+    transition: var(--transition);
+    border: 1px solid var(--border-color);
+}
+
+.involvement-grid-compact .involvement-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-hover);
+}
+
+.involvement-grid-compact .involvement-card i {
+    font-size: 2rem;
+    color: var(--primary-color);
+    margin-bottom: 0.75rem;
+    display: block;
+}
+
+.involvement-grid-compact .involvement-card h4 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin-bottom: 0.5rem;
+}
+
+.involvement-grid-compact .involvement-card p {
+    color: var(--text-secondary);
+    font-size: 0.8rem;
+    margin: 0;
+}
+
+/* Skills Section */
+.skills {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(45, 89, 54, 0.02) 100%);
+    position: relative;
+}
+
+.skills::before {
+    content: '';
+    position: absolute;
+    top: 20%;
+    right: -3%;
+    width: 200px;
+    height: 200px;
+    background: radial-gradient(circle, var(--sage-green), transparent);
+    opacity: 0.03;
+    border-radius: 50%;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.skill-card {
+    text-align: center;
+    padding: 2.5rem 2rem;
+    background: var(--card-background);
+    border-radius: 20px;
+    box-shadow: var(--shadow);
+    transition: var(--transition);
+    border: 1px solid var(--border-color);
+    position: relative;
+    overflow: hidden;
+}
+
+.skill-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(139, 115, 85, 0.05), transparent);
+    transition: left 0.5s ease;
+}
+
+.skill-card:hover::before {
+    left: 100%;
+}
+
+.skill-card:hover {
+    transform: translateY(-8px);
+    box-shadow: var(--shadow-hover);
+}
+
+.skill-card i {
+    font-size: 3rem;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+    display: block;
+    transition: var(--transition);
+}
+
+.skill-card:hover i {
+    transform: scale(1.1);
+    color: var(--accent-color);
+}
+
+.skill-card h4 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin-bottom: 0.75rem;
+}
+
+.skill-card p {
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
 /* Contact Section */
 .contact-content {
     text-align: center;
@@ -1492,6 +1620,16 @@ section:nth-child(odd) {
         grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     }
     
+    .involvement-grid-compact {
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+        gap: 0.75rem;
+    }
+    
+    .skills-grid {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 1rem;
+    }
+    
     .hero-buttons,
     .contact-buttons {
         flex-direction: column;
@@ -1556,8 +1694,18 @@ section:nth-child(odd) {
     }
     
     .academic-card,
-    .involvement-card {
+    .involvement-card,
+    .skill-card {
         padding: 1.5rem;
+    }
+    
+    .involvement-grid-compact .involvement-card {
+        padding: 1.25rem 1rem;
+    }
+    
+    .skills-grid {
+        grid-template-columns: 1fr;
+        gap: 0.75rem;
     }
 }
 
